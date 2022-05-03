@@ -1,0 +1,17 @@
+galaxy_info:
+  author: Leandro Ramos
+  description: "Ansible role to Install dokku on Debian servers."
+  license: GPL-3.0-or-later
+  min_ansible_version: 2.1
+  platforms:
+  - name: Debian
+    versions:
+      - stretch
+      - buster
+      - bullseye
+
+  galaxy_tags:
+    - docker
+    - dokku
+
+dependencies: []

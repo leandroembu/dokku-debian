@@ -1,0 +1,9 @@
+---
+
+debian_version: bullseye
+ubuntu_version: bionic
+dokku_repo: "deb https://packagecloud.io/dokku/dokku/ubuntu/ {{ ubuntu_version }}"
+dependencies:
+  - apt-transport-https
+  - gnupg2
+  - docker.io
