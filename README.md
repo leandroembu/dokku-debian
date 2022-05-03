@@ -22,8 +22,6 @@ Project tree:
 ```
 your-project-folder
 ├── dokku-debian (this repo)
-│   ├── defaults
-│   │   └── main.yml
 │   ├── handlers
 │   │   └── main.yml
 │   ├── LICENSE
@@ -54,8 +52,3 @@ License
 -------
 
 GNU GPL v3.0
-
-Author Information
-------------------
-
-An optional section for the role authors to include contact information, or a website (HTML is not allowed).
