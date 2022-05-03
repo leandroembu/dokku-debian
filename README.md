@@ -44,9 +44,11 @@ your-project-folder
 Example Playbook
 ----------------
 
+```
 - hosts: all
   roles:
     - { role: dokku-debian, become: yes }
+```
 
 License
 -------
