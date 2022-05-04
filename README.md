@@ -13,6 +13,13 @@ Requirements
 How to run this role
 ------------
 
+Install with ansible-galaxy:
+`ansible-galaxy install leandroramos.dokku_debian`
+And run a playbook using this role.
+
+Or
+
+
 - Create a folder with playbook.yml and inventory files
 - In this folder, clone this repo
 - Run the playbook (see the example playbook in the next section):
