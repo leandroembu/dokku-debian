@@ -17,6 +17,13 @@ Install with ansible-galaxy:
 `ansible-galaxy install leandroramos.dokku_debian`
 And run a playbook using this role.
 
+Example playbook:
+```
+- hosts: all
+  roles:
+    - { role: leandroramos.dokku_debian, become: yes }
+```
+
 Or
 
 
